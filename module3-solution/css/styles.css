@@ -1,0 +1,53 @@
+/*** BASIC STYLES ***/
+body {
+	font-size: 16px;
+}
+
+/*** HEADER NAVBAR ***/
+#header-nav {
+	background-color: #C0C0C0; /* Silver */
+	border-radius: 0;
+	border: 2px solid #000000;
+}
+
+.navbar-brand h1 {
+	font-family: Helvetica;
+	margin-top: 0;
+	color: #000000; /* Black */
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #000000; /* Black */
+}
+#nav-list a {
+	color: #000000; /* Black */
+	/*text-align: center;*/
+	background-color: #FFFFFF; /* White */
+	border: 1px solid #000000; /* Black */
+}
+
+/*** END HEADER NAVBAR ***/
+
+/*** MENU TITLE ***/
+#menu-title {
+	color: #000000; /* Black */
+	padding-bottom: 20px;
+}
+/*** END MENU TITLE ***/
+
+/*** MAIN CONTENT ***/
+#main-content {
+	background-color: #C0C0C0; /* Silver */
+}
+.chicken-title {
+	text-align: center;
+}
+
+/*** END MAIN CONTENT ***/
+
+@media (max-width: 767px) {
+	#main-content {
+		width: 85%;
+	}
+}
